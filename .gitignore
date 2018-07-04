@@ -1,0 +1,47 @@
+# Typically *NIX text editors, by default, append '~' to files on saving to make backups
+*~
+
+*.java.hsp
+*.sonarj
+*.sw*
+.DS_Store
+.settings
+.springBeans
+bin
+build.sh
+integration-repo
+ivy-cache
+jxl.log
+jmx.log
+derby.log
+.gradle
+gradle-app.setting
+argfile*
+activemq-data/
+
+build/
+/build
+*/build
+*/**/build
+
+target/
+/target
+*/target
+*/**/target
+
+# Eclipse artifacts, including WTP generated manifests
+.classpath
+.project
+.metadata
+venus-*/src/main/java/META-INF/MANIFEST.MF
+.eclipse-pmd
+# IDEA artifacts and output dirs
+*.iml
+*.ipr
+*.iws
+.idea
+out
+test-output
+atlassian-ide-plugin.xml
+.gradletasknamecache
+pom.xml.versionsBackup

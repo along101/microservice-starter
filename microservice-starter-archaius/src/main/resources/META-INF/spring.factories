@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.along101.microservice.starter.archaius.ArchaiusConfig
+

@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.along101.microservice</groupId>
+    <artifactId>microservice-starter-dependencies</artifactId>
+    <packaging>jar</packaging>
+
+    <name>microservice-starter-dependencies</name>
+
+    <properties>
+    </properties>
+
+    <parent>
+        <groupId>com.along101.microservice</groupId>
+        <artifactId>microservice-starter-parent</artifactId>
+        <version>0.1.x-SNAPSHOT</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.along101.microservice</groupId>
+            <artifactId>microservice-starter-apollo</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.along101.microservice</groupId>
+            <artifactId>microservice-starter-archaius</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.along101.microservice</groupId>
+            <artifactId>microservice-starter-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.along101.microservice</groupId>
+            <artifactId>microservice-starter-eureka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.along101.microservice</groupId>
+            <artifactId>microservice-starter-log</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.dianping.cat</groupId>
+                    <artifactId>cat-client</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.along101.microservice</groupId>
+            <artifactId>microservice-starter-cat</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>netty-all</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.along101.microservice</groupId>
+            <artifactId>microservice-starter-metric</artifactId>
+        </dependency>
+    </dependencies>
+</project>

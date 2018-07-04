@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.along101.microservice.starter.apollo.ApolloClientAutoConfiguration
+
+
+# Environment Post Processors
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.along101.microservice.starter.apollo.ApolloEnvironmentPostProcessor
