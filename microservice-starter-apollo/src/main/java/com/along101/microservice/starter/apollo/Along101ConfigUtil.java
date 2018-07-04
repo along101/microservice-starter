@@ -6,7 +6,7 @@ import org.springframework.util.StringUtils;
 import org.unidal.lookup.annotation.Named;
 
 @Named(type = ConfigUtil.class)
-public class along101ConfigUtil extends ConfigUtil {
+public class Along101ConfigUtil extends ConfigUtil {
     public static final String APPID_KEY = "com.along101.appId";
     public static final String CONFIG_NAMESPACES = "apollo.nameSpaces";
     private String appId;

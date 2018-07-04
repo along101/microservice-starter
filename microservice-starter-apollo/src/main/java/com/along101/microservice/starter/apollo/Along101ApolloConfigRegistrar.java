@@ -11,7 +11,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.env.Environment;
 import org.springframework.core.type.AnnotationMetadata;
 
-public class along101ApolloConfigRegistrar implements ImportBeanDefinitionRegistrar, EnvironmentAware {
+public class Along101ApolloConfigRegistrar implements ImportBeanDefinitionRegistrar, EnvironmentAware {
 
     private ConfigurableEnvironment environment;
 

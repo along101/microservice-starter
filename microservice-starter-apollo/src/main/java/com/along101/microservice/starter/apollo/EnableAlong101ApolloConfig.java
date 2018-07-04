@@ -9,8 +9,8 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 @Documented
-@Import(along101ApolloConfigRegistrar.class)
-public @interface Enablealong101ApolloConfig {
+@Import(Along101ApolloConfigRegistrar.class)
+public @interface EnableAlong101ApolloConfig {
     /**
      * Apollo namespaces to inject configuration into Spring Property Sources.
      */

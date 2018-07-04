@@ -14,14 +14,14 @@ import org.codehaus.plexus.PlexusContainer;
 import org.codehaus.plexus.component.repository.exception.ComponentLookupException;
 import org.unidal.lookup.ContainerLoader;
 
-public class along101ConfigService {
-    private static final along101ConfigService s_instance = new along101ConfigService();
+public class Along101ConfigService {
+    private static final Along101ConfigService s_instance = new Along101ConfigService();
 
     private PlexusContainer m_container;
     private volatile ConfigManager m_configManager;
     private volatile ConfigRegistry m_configRegistry;
 
-    private along101ConfigService() {
+    private Along101ConfigService() {
         DefaultContainerConfiguration configuration = new DefaultContainerConfiguration();
         configuration.setContainerConfiguration("META-INF/components-along101.xml");
         ContainerLoader.destroyDefaultContainer();
